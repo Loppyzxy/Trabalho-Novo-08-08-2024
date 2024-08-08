@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateristas</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2884/2884355.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+             body{
+       background-repeat:no-repeat;
+       background-size: 38vw;
+       background-attachment: fixed;
+       background-position: bottom;
+       background-position-x: 10vw;
+            }
+    </style>
+</head>
+<body>
+    <h5 class="bateristas_favoritos">Bateristas favoritos</h5>
+        <nav>
+            <a href="index.html">Home</a></li>
+            <a href="guitarristas.html">Guitarristas</a></li>           
+            <a href="bateiristas.html">Bateristas</a>
+            <a href="baixistas.html">Baixistas</a>
+            <a href="bandas.html">Bandas</a>
+            <a href="musicas.html">Musicas</a>
+            <a style="color: rgb(255, 169, 169);font-weight: lighter;transform: translateX(0%);"href="sobre.html">Sobre</a></li>
+        </nav>
+       <div class="modoclaro1">
+        <input type="checkbox" class="checkbox" id="chk">
+        
+
+        <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+        </label>
+       </div>
+       <script src="script.js"></script>
+       <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
+    <div class="slider-container">
+        <div class="slider">
+            <!-- Cada 'slide' contém uma imagem -->
+            <div class="slide active">
+                <img src="https://i.imgur.com/s2PDy8g.png" alt="Imagem 1" style="height: 90vh;">
+            </div>
+            <div class="slide">
+                <img src="https://i.imgur.com/LVDH0Tx.png" alt="Imagem 2" style="height: 100vh;">
+            </div>
+            <div class="slide">
+                <img src="https://i.imgur.com/3fLKz4U.png" alt="Imagem 3" style="height: 80vh;">
+            </div>
+            <div class="slide">
+                <img src="https://i.imgur.com/CsqlqTy.png" alt="Imagem 4">
+            </div>
+        </div>
+        <div class="controls">
+            <input type="radio" name="slider" id="radio1" checked>
+            <label for="radio1"></label>
+            <input type="radio" name="slider" id="radio2">
+            <label for="radio2"></label>
+            <input type="radio" name="slider" id="radio3">
+            <label for="radio3"></label>
+            <input type="radio" name="slider" id="radio4">
+            <label for="radio4"></label>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+    <footer>
+        &copy; Felipy// Todos os direitos reservados.
+    </footer>
+    
+</body>
+</html>
